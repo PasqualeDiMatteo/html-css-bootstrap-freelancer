@@ -58,6 +58,12 @@ header{
     border-color: var(--header-footer-color);
 }
 
+/* About */
+
+#about{
+    background-color: var(--main-color);
+}
+
 /* ! Remove */
 
 section{
