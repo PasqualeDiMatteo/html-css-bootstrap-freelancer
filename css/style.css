@@ -8,7 +8,18 @@ body{
     color: white;
 }
 
+/* Generic */
+
+h2{
+    color: #333333;
+}
+
+img{
+    max-width: 100%;
+}
+
 /* Header */
+
 header{
     background-color: var(--header-footer-color);
     height: 80px;
@@ -37,6 +48,14 @@ header{
     width: 12%;
     border: 2px solid white;
     vertical-align: 10px;
+}
+
+/* Portfolio */
+.star-blue,
+.star-blue::after,
+.star-blue::before{
+    color: var(--header-footer-color);
+    border-color: var(--header-footer-color);
 }
 
 /* ! Remove */
