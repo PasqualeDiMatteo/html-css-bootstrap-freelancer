@@ -1,5 +1,48 @@
+:root{
+    --header-footer-color: #2c3e50;
+    --main-color: #1abc9c;
+    --second-color: #3a546d;
+}
+
+body{
+    color: white;
+}
+
+/* Header */
+header{
+    background-color: var(--header-footer-color);
+    height: 80px;
+}
+
+/* Jumbotron */
+
+#jumbotron{
+    background-color: var(--main-color);
+}
+
+.fa-bars{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#jumbotron img{
+    width: 300px;
+}
+
+.star::after,
+.star::before{
+    content: '';
+    display: inline-block;
+    width: 12%;
+    border: 2px solid white;
+    vertical-align: 10px;
+}
+
+/* ! Remove */
+
 section{
-    height: 400px;
+    min-height:400px;
 }
 
 .my-border{
