@@ -104,14 +104,8 @@ header{
     height: 80px;
 }
 
-/* ! Remove */
-
-section{
-    min-height:400px;
-}
-
-.my-border{
-    border: 2px dashed black;
+footer a{
+    color: white;
 }
 
 /* Utilities */
