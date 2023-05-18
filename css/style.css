@@ -41,6 +41,15 @@ header{
     width: 300px;
 }
 
+/* Portfolio */
+
+.star-blue,
+.star-blue::after,
+.star-blue::before{
+    color: var(--header-footer-color);
+    border-color: var(--header-footer-color);
+}
+
 .star::after,
 .star::before{
     content: '';
@@ -50,19 +59,34 @@ header{
     vertical-align: 10px;
 }
 
-/* Portfolio */
-.star-blue,
-.star-blue::after,
-.star-blue::before{
-    color: var(--header-footer-color);
-    border-color: var(--header-footer-color);
-}
-
 /* About */
 
 #about{
     background-color: var(--main-color);
 }
+
+
+/* Contact */
+
+#contact .form-control{
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    padding-left: 0;
+    padding-bottom: 15px;
+    box-shadow: none;
+}
+
+.form-control::placeholder{
+    color: var(--header-footer-color);
+    font-size: large;
+    font-weight: 700;
+}
+
+#contact .btn:hover{
+    background-color: var(--main-color);
+}
+
 
 /* ! Remove */
 
@@ -74,6 +98,16 @@ section{
     border: 2px dashed black;
 }
 
-form{
-    min-height: 200px;
+/* Utilities */
+
+.bg-blue{
+    background-color: var(--header-footer-color);
+}
+
+.navbar-toggler-icon{
+    filter: invert(0.5);
+}
+
+.bg-green{
+    background-color: var(--main-color);
 }
