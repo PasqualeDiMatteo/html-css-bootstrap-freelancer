@@ -100,10 +100,12 @@ header{
 }
 
 .footer-bottom{
-    background-color: var(--second-color);
     height: 80px;
 }
 
+.footer-top{
+    background-color: var(--second-color);
+}
 footer a{
     color: white;
 }
