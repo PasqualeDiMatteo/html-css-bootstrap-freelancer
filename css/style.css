@@ -87,6 +87,22 @@ header{
     background-color: var(--main-color);
 }
 
+/* Footer */
+
+.social-icon > *{
+    width: 40px;
+    height: 40px;
+}
+
+.link-bootstrap{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.footer-bottom{
+    background-color: var(--second-color);
+    height: 80px;
+}
 
 /* ! Remove */
 
