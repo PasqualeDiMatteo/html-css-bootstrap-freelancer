@@ -42,14 +42,6 @@ header{
 }
 
 /* Portfolio */
-
-.star-blue,
-.star-blue::after,
-.star-blue::before{
-    color: var(--header-footer-color);
-    border-color: var(--header-footer-color);
-}
-
 .star::after,
 .star::before{
     content: '';
@@ -58,6 +50,14 @@ header{
     border: 2px solid white;
     vertical-align: 10px;
 }
+
+.star-blue,
+.star-blue::after,
+.star-blue::before{
+    color: var(--header-footer-color);
+    border-color: var(--header-footer-color);
+}
+
 
 /* About */
 
